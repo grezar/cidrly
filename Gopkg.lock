@@ -2,43 +2,6 @@
 
 
 [[projects]]
-  digest = "1:ede58ea462bf4a1e17301848fd0482496cd940c2c71653e3995e74cff196f5a9"
-  name = "github.com/aws/aws-sdk-go-v2"
-  packages = [
-    "aws",
-    "aws/awserr",
-    "aws/defaults",
-    "aws/ec2metadata",
-    "aws/ec2rolecreds",
-    "aws/endpointcreds",
-    "aws/endpoints",
-    "aws/external",
-    "aws/signer/v4",
-    "aws/stscreds",
-    "internal/awsutil",
-    "internal/ini",
-    "internal/sdk",
-    "private/protocol",
-    "private/protocol/ec2query",
-    "private/protocol/query",
-    "private/protocol/query/queryutil",
-    "private/protocol/rest",
-    "private/protocol/xml/xmlutil",
-    "service/ec2",
-    "service/sts",
-  ]
-  pruneopts = ""
-  revision = "c2b476bac53067cebc587747e866881b2e383625"
-  version = "v0.7.0"
-
-[[projects]]
-  digest = "1:13fe471d0ed891e8544eddfeeb0471fd3c9f2015609a1c000aefdedf52a19d40"
-  name = "github.com/jmespath/go-jmespath"
-  packages = ["."]
-  pruneopts = ""
-  revision = "c2b33e84"
-
-[[projects]]
   branch = "master"
   digest = "1:563569524c7d4c4be853b9a719c9a804fb19492f738b94cbf808ce72816701d1"
   name = "github.com/xlab/treeprint"
@@ -69,9 +32,6 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
-    "github.com/aws/aws-sdk-go-v2/aws",
-    "github.com/aws/aws-sdk-go-v2/aws/external",
-    "github.com/aws/aws-sdk-go-v2/service/ec2",
     "github.com/xlab/treeprint",
     "golang.org/x/crypto/ssh/terminal",
   ]
