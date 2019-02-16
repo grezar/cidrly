@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"golang.org/x/crypto/ssh/terminal"
 	"io/ioutil"
 	"os"
 	"syscall"
+
+	"golang.org/x/crypto/ssh/terminal"
 )
 
 func run() int {
